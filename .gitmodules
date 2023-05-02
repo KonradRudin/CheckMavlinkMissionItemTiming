@@ -1,0 +1,6 @@
+[submodule "libmav"]
+	path = libmav
+	url = git@github.com:Auterion/libmav.git
+[submodule "mavlink"]
+	path = mavlink
+	url = git@github.com:Auterion/mavlink.git
