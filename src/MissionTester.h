@@ -15,6 +15,7 @@ private:
     std::shared_ptr<mav::Connection> _connection;
 
     void _handleMessage(const mav::Message& message);
+    void _identificationMessageHandler(const mav::Message& message);
 
 public:
     MissionTester();
